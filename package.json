@@ -1,0 +1,19 @@
+{
+  "name": "week4-facnhosers",
+  "version": "1.0.0",
+  "description": "Repo for FAC'N Hoser's Autocomplete project",
+  "main": "index.js",
+  "scripts": {
+    "test": "src/test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FACN1/week4-FACNhosers.git"
+  },
+  "author": "Suha, Mavis, Lawson, Joudy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FACN1/week4-FACNhosers/issues"
+  },
+  "homepage": "https://github.com/FACN1/week4-FACNhosers#readme"
+}
