@@ -1,12 +1,16 @@
-var eventListeners = {
-    searchBox: function(){
+var eventListeners = {}
+
+eventListeners.searchBox = function(callback){
         var sBox = document.querySelector('#sBox');
         sBox.addEventListener('keyup',function(event){
-                console.log(event.target.value);
+                callback(sBox);
             })
     }
-}
+
+eventListeners.logKey = function(node){
+      console.log(node.value)
+  };
 
 
 
-eventListeners.searchBox();
+eventListeners.searchBox(eventListeners.logKey);
