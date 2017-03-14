@@ -51,7 +51,6 @@ Australian Terrier
 Avocet
 Axolotl
 Aye Aye
-B
 Baboon
 Bactrian Camel
 Badger
@@ -118,7 +117,6 @@ Burmese
 Burrowing Frog
 Butterfly
 Butterfly Fish
-C
 Caiman
 Caiman Lizard
 Cairn Terrier
@@ -173,7 +171,6 @@ Cross River Gorilla
 Curly Coated Retriever
 Cuscus
 Cuttlefish
-D
 Dachshund
 Dalmatian
 Darwin's Frog
@@ -198,7 +195,6 @@ Dugong
 Dunker
 Dusky Dolphin
 Dwarf Crocodile
-E
 Eagle
 Earwig
 Eastern Gorilla
@@ -220,7 +216,6 @@ Entlebucher Mountain Dog
 Epagneul Pont Audemer
 Eskimo Dog
 Estrela Mountain Dog
-F
 Falcon
 Fennec Fox
 Ferret
@@ -243,7 +238,6 @@ Frigatebird
 Frilled Lizard
 Frog
 Fur Seal
-G
 Galapagos Penguin
 Galapagos Tortoise
 Gar
@@ -285,7 +279,6 @@ Grouse
 Guinea Fowl
 Guinea Pig
 Guppy
-H
 Hammerhead Shark
 Hamster
 Hare
@@ -309,7 +302,6 @@ Humboldt Penguin
 Hummingbird
 Humpback Whale
 Hyena
-I
 Ibis
 Ibizan Hound
 Iguana
@@ -323,7 +315,6 @@ Indri
 Insect
 Irish Setter
 Irish WolfHound
-J
 Jack Russel
 Jackal
 Jaguar
@@ -332,7 +323,6 @@ Japanese Macaque
 Javan Rhinoceros
 Javanese
 Jellyfish
-K
 Kakapo
 Kangaroo
 Keel Billed Toucan
@@ -344,7 +334,6 @@ Kiwi
 Koala
 Komodo Dragon
 Kudu
-L
 Labradoodle
 Labrador Retriever
 Ladybird
@@ -364,7 +353,6 @@ Llama
 Lobster
 Long-Eared Owl
 Lynx
-M
 Macaroni Penguin
 Macaw
 Magellanic Penguin
@@ -400,7 +388,6 @@ Mountain Gorilla
 Mountain Lion
 Mouse
 Mule
-N
 Neanderthal
 Neapolitan Mastiff
 Newfoundland
@@ -410,7 +397,6 @@ Norfolk Terrier
 Norwegian Forest
 Numbat
 Nurse Shark
-O
 Ocelot
 Octopus
 Okapi
@@ -421,7 +407,6 @@ Orang-utan
 Ostrich
 Otter
 Oyster
-P
 Pademelon
 Panther
 Parrot
@@ -457,12 +442,10 @@ Purple Emperor
 Puss Moth
 Pygmy Hippopotamus
 Pygmy Marmoset
-Q
 Quail
 Quetzal
 Quokka
 Quoll
-R
 Rabbit
 Raccoon
 Raccoon Dog
@@ -485,7 +468,6 @@ Roseate Spoonbill
 Rottweiler
 Royal Penguin
 Russian Blue
-S
 Sabre-Toothed Tiger
 Saint Bernard
 Salamander
@@ -547,7 +529,6 @@ Sumatran Rhinoceros
 Sumatran Tiger
 Sun Bear
 Swan
-T
 Tang
 Tapir
 Tarsier
@@ -568,15 +549,12 @@ Tropicbird
 Tuatara
 Turkey
 Turkish Angora
-U
 Uakari
 Uguisu
 Umbrellabird
-V
 Vampire Bat
 Vervet Monkey
 Vulture
-W
 Wallaby
 Walrus
 Warthog
@@ -604,5 +582,4 @@ Woodpecker
 Woolly Mammoth
 Woolly Monkey
 Wrasse
-X
 X-Ray Tetra
