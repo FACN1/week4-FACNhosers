@@ -36,6 +36,7 @@ User starts to type a word and Autocomplete will sugest endings to the word from
 
 ## Stretch Goals
 
+- Put on heroku
 - Basic CSS
 - Use other dictionaries: Hebrew, Slang, Arabic etc.
 - Add an Add word button
