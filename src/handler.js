@@ -34,6 +34,21 @@ var handler = function(request, response){
       response.end(file);
     });
   }
+  else if(url === '/makeRequest'){
+    console.log('request made, redirect back to main site')
+    var filePath = path.join(__dirname, '../index.html');
+    fs.readFile(filePath, function (err, file){
+      if (err) {
+        console.log(err);
+        return;
+      }
+      else {
+        response.writeHead(200, {"content-type":"text/html"});
+        response.end(file);
+      }
+    })
+
+  }
 }
 
 module.exports = handler;
