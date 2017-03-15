@@ -4,6 +4,7 @@
   "description": "Repo for FAC'N Hoser's Autocomplete project",
   "main": "index.js",
   "scripts": {
+    "start":"node index.js",
     "test": "src/test/test.js"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/FACN1/week4-FACNhosers/issues"
   },
-  "homepage": "https://github.com/FACN1/week4-FACNhosers#readme"
+  "homepage": "https://github.com/FACN1/week4-FACNhosers#readme",
+  "engines":{
+    "node":"7.7.2"
+  }
 }
