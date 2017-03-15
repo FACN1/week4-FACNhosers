@@ -11,6 +11,9 @@ eventListeners.logKey = function(node){
       console.log(node.value)
   };
 
+eventListeners.makeRequest = function(node){
+  requestModule.makeRequest('POST',/makeRequest,console.log())
+}
 
 
-eventListeners.searchBox(eventListeners.logKey);
+eventListeners.searchBox(eventListeners.makeRequest);
