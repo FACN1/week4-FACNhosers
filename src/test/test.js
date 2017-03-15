@@ -15,7 +15,17 @@ test('Check if output is empty', function(assert){
 });
 
 test('Check if search function works', function(assert){
-
+  var aArray = ["aardvark",
+    "abyssinian",
+    "adelie penguin",
+    "affenpinscher",
+    "afghan hound"
+  ]
+  var aiArray = ['ainu dog',
+  'airedale terrier'
+  ]
   assert.deepEqual(searchModule.search('z', dict), ['zebra'], 'z returns zebra');
+  assert.deepEqual(searchModule.search('a', dict), aArray, 'a returns aArray')
+  assert.deepEqual(searchModule.search('ai', dict), aiArray, 'ai returns aiArray')
   assert.end();
 })
