@@ -2,9 +2,9 @@ var requestModule = (function(){
   function makeRequest(method, url, callback){
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function(){
-      if (xhr.readyState === 4 && xhr.status === 2000){
-        var response = JSON.parse(xhr.responseText));
-        callback(response);
+      if (xhr.readyState === 4 && xhr.status === 200){
+        //var response = JSON.parse(xhr.responseText);
+        callback('response recieved');
       }
     }
     xhr.open(method, url);
@@ -14,4 +14,4 @@ var requestModule = (function(){
   return {
     makeRequest:makeRequest
   }
-}();
+}());
