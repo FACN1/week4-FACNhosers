@@ -1,5 +1,7 @@
 # week4-FACNhosers
-Repo for FAC'N Hoser's Autocomplete project
+Repo for FAC'N Hoser's Autocomplete project:
+
+[Find the site hosted on Heroku here](https://still-reaches-22770.herokuapp.com/)
 
 ## User Experience
 
@@ -36,7 +38,7 @@ User starts to type a word and Autocomplete will suggest endings to the word fro
 
 ## Stretch Goals
 
-- [ ] Put on heroku
+- [x] Put on heroku
 - [ ] Basic CSS
 - [ ] Use other dictionaries: Hebrew, Slang, Arabic etc.
 - [ ] Add API that gets image and info about the animals
@@ -46,5 +48,4 @@ User starts to type a word and Autocomplete will suggest endings to the word fro
 
 ## To Do:
 
-1. Put the whole thing on heroku (as a four)
-2. Two of Us update CSS, two of us refactor the code.
+1. Two of Us update CSS, two of us refactor the code.
