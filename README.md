@@ -39,6 +39,7 @@ User starts to type a word and Autocomplete will suggest endings to the word fro
 - [ ] Put on heroku
 - [ ] Basic CSS
 - [ ] Use other dictionaries: Hebrew, Slang, Arabic etc.
+- [ ] Add API that gets image and info about the animals
 - [ ] Add an Add word button
 - [ ] Possibly add a button the makes a request to an outside API to get a definition
 - [ ] Advanced CSS
