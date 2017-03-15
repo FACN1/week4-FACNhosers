@@ -14,7 +14,7 @@ eventListeners.logKey = function(){
 };
 
 eventListeners.makeRequest = function(){
-  requestModule.makeRequest('POST','/makeRequest',console.log, sBox)
+  requestModule.makeRequest('POST','/makeRequest',renderModule.renderSearch, sBox)
 }
 
 
