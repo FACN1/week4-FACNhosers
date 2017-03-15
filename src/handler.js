@@ -58,7 +58,9 @@ var handler = function(request, response){
       allData = allData.toLowerCase();
       var results = searchModule.search(allData, dict);
       console.log(results);
-      response.end();
+      var JSONResults = JSON.stringify(results);
+      response.writeHead(200,{"content-type":"text/javascript"});
+      response.end(JSONResults);
     })
   }
 }
