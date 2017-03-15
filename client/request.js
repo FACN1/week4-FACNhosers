@@ -1,5 +1,5 @@
 var requestModule = (function(){
-  function makeRequest(method, url, callback){
+  function makeRequest(method, url, callback, input){
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function(){
       if (xhr.readyState === 4 && xhr.status === 200){
@@ -8,7 +8,7 @@ var requestModule = (function(){
       }
     }
     xhr.open(method, url);
-    xhr.send();
+    xhr.send(input.value);
   }
 
   return {

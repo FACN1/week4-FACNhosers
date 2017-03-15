@@ -1,8 +1,10 @@
 const fs = require('fs');
 const path = require('path');
+const searchModule = require('./search.js');
 
 var handler = function(request, response){
   var url = request.url;
+  var dict = searchModule.dictionaryImport();
   console.log('Request coming in for URL: ', url);
 
   if(url === '/'){
@@ -35,19 +37,29 @@ var handler = function(request, response){
     });
   }
   else if(url === '/makeRequest'){
-    console.log('request made, redirect back to main site')
-    var filePath = path.join(__dirname, '../index.html');
-    fs.readFile(filePath, function (err, file){
-      if (err) {
-        console.log(err);
-        return;
-      }
-      else {
-        response.writeHead(200, {"content-type":"text/html"});
-        response.end(file);
-      }
+    // console.log('request made, redirect back to main site')
+    // var filePath = path.join(__dirname, '../index.html');
+    // fs.readFile(filePath, function (err, file){
+    //   if (err) {
+    //     console.log(err);
+    //     return;
+    //   }
+    //   else {
+    //     response.writeHead(200, {"content-type":"text/html"});
+    //     response.end(file);
+    //   }
+    // })
+    var allData = '';
+    request.on('data', function(query) {
+      allData += query;
     })
-
+    request.on('end', function() {
+      console.log(allData);
+      allData = allData.toLowerCase();
+      var results = searchModule.search(allData, dict);
+      console.log(results);
+      response.end();
+    })
   }
 }
 
