@@ -37,18 +37,6 @@ var handler = function(request, response){
     });
   }
   else if(url === '/makeRequest'){
-    // console.log('request made, redirect back to main site')
-    // var filePath = path.join(__dirname, '../index.html');
-    // fs.readFile(filePath, function (err, file){
-    //   if (err) {
-    //     console.log(err);
-    //     return;
-    //   }
-    //   else {
-    //     response.writeHead(200, {"content-type":"text/html"});
-    //     response.end(file);
-    //   }
-    // })
     var allData = '';
     request.on('data', function(query) {
       allData += query;
