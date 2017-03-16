@@ -4,15 +4,15 @@ const searchModule = require('./search.js');
 
 var dict = searchModule.dictionaryImport();
 
+var handler = function (request, response) {
 
-var handler = function(request, response){
   var url = request.url;
   var dict = searchModule.dictionaryImport();
 
 
-  if(url === '/'){
+  if (url === '/') {
     var filePath = path.join(__dirname, '../index.html');
-    fs.readFile(filePath, function (err, file){
+    fs.readFile(filePath, function (err, file) {
       if (err) {
         console.log(err);
         return;
@@ -23,15 +23,16 @@ var handler = function(request, response){
       }
     })
   }
-  else if(url.indexOf('client') !== -1) {
+
+  else if (url.indexOf('client') !== -1) {
     var filePath = path.join(__dirname, '..', url);
     var extension = url.split('.')[1];
     var extensionType = {
       "js": 'application/javascript',
       "css": 'text/css'
     }
-    fs.readFile(filePath, function (err, file){
-      if (err){
+    fs.readFile(filePath, function (err, file) {
+      if (err) {
         console.log(err);
         return;
       }
@@ -39,7 +40,7 @@ var handler = function(request, response){
       response.end(file);
     });
   }
-  else if(url === '/makeRequest'){
+  else if (url === '/makeRequest') {
     var allData = '';
     request.on('data', function(query) {
       allData += query;
