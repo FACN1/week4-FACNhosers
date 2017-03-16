@@ -2,9 +2,13 @@ const fs = require('fs');
 const path = require('path');
 const searchModule = require('./search.js');
 
+var dict = searchModule.dictionaryImport();
+
+
 var handler = function(request, response){
   var url = request.url;
   var dict = searchModule.dictionaryImport();
+
 
   if(url === '/'){
     var filePath = path.join(__dirname, '../index.html');
