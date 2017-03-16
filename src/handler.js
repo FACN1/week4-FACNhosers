@@ -54,7 +54,7 @@ var handler = function(request, response){
   }
   else {
     response.writeHead(404, {'Content-Type':'text/plain'});
-    response.end('the page not found');
+    response.end('404 Blimey!! Page not found :/');
   }
 }
 
