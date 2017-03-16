@@ -1,1 +1,1 @@
-eventListenerModule.searchBox(eventListenerModule.makeRequest);
+eventListenerModule.searchBox(requestModule.makeRequest);

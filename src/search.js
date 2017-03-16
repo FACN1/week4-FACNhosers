@@ -8,21 +8,24 @@ var searchModule = (function() {
     var filePath = path.join(__dirname, 'dict.txt');
     var data = fs.readFileSync(filePath);
     return data.toString().toLowerCase().split('\n');
+
   }
 
-  var search = function(userInput, dict){
+  var search = function(userInput, dict) {
+
     var searchResults = [];
     var resultCounter = 0;
-    for(var i = 0; i<dict.length; i++){
-      if(dict[i].startsWith(userInput)){
+    for (var i = 0; i<dict.length; i++) {
+      if (dict[i].startsWith(userInput)) {
         searchResults.push(dict[i]);
         resultCounter ++;
-        if(resultCounter === 5){
+        if (resultCounter === 5) {
           break;
         }
       }
     }
     return searchResults;
+
   };
 
   return {
@@ -31,6 +34,5 @@ var searchModule = (function() {
   };
 
 })();
-
 
 module.exports = searchModule;
