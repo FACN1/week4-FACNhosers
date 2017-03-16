@@ -52,6 +52,10 @@ var handler = function(request, response){
       response.end(JSONResults);
     })
   }
+  else {
+    response.writeHead(404, {'Content-Type':'text/plain'});
+    response.end('the page not found');
+  }
 }
 
 module.exports = handler;
