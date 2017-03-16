@@ -39,13 +39,26 @@ User starts to type a word and Autocomplete will suggest endings to the word fro
 ## Stretch Goals
 
 - [x] Put on heroku
-- [ ] Basic CSS
+- [x] Basic CSS
 - [ ] Use other dictionaries: Hebrew, Slang, Arabic etc.
 - [ ] Add API that gets image and info about the animals
 - [ ] Add an Add word button
 - [ ] Possibly add a button the makes a request to an outside API to get a definition
 - [ ] Advanced CSS
 
-## To Do:
+# SGC to do in week 5:
 
-1. Two of Us update CSS, two of us refactor the code.
+ - Mavis stop playing with your lighter
+ - We all need to write better commit messages
+ - Write the syntax we are going to use in our README.md
+ - Joudy wants to start the presentation
+ - comment our code better
+ - More instructions for user in the README
+ - write on a board if we can
+ - use soft deadlines - maybe check in every hour
+ - TDD a bit
+ - when making functions or modules, define inputs and expected returns
+ - Split into pairs as we did and also work as a group on new things still
+ - Tick boxes in the README.md
+ - Keep writing the skeleton files at the start
+ - Keep making jokes
