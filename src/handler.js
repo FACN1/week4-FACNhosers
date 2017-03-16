@@ -46,7 +46,7 @@ var handler = function (request, response) {
       allData += query;
     })
     request.on('end', function() {
-      allData = allData.toLowerCase();
+      allData = allData.toLowerCase().trim();
       var results = searchModule.search(allData, dict);
       var JSONResults = JSON.stringify(results);
       response.writeHead(200,{"content-type":"text/javascript"});
