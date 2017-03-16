@@ -1,11 +1,11 @@
 var renderModule = (function() {
   function renderSearch(results) {
-    var resultsLists = document.getElementById('results-list');
-    resultsLists.textContent = "";
-    results.forEach(function(element) {
+    var resultsList = document.getElementById('results-list');
+    resultsList.textContent = "";
+    results.forEach(function(animalName) {
       var listNode = document.createElement('li');
-      listNode.textContent = element;
-      resultsLists.appendChild(listNode);
+      listNode.textContent = animalName;
+      resultsList.appendChild(listNode);
 
     })
   }
