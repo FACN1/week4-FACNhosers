@@ -7,7 +7,8 @@ var dict = searchModule.dictionaryImport();
 
 var handler = function(request, response){
   var url = request.url;
-  console.log('Request coming in for URL: ', url);
+  var dict = searchModule.dictionaryImport();
+
 
   if(url === '/'){
     var filePath = path.join(__dirname, '../index.html');
@@ -44,10 +45,8 @@ var handler = function(request, response){
       allData += query;
     })
     request.on('end', function() {
-      console.log(allData);
       allData = allData.toLowerCase();
       var results = searchModule.search(allData, dict);
-      console.log(results);
       var JSONResults = JSON.stringify(results);
       response.writeHead(200,{"content-type":"text/javascript"});
       response.end(JSONResults);
