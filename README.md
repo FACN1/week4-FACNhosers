@@ -62,3 +62,5 @@ User starts to type a word and Autocomplete will suggest endings to the word fro
  - Tick boxes in the README.md
  - Keep writing the skeleton files at the start
  - Keep making jokes
+ - If the syntax is wrong in a pull request DON'T merge, request changes
+ - Be more specific on variable naming
