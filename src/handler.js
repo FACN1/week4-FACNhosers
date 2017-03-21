@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const searchModule = require('./search.js');
-
+//a comment
 var dict = searchModule.dictionaryImport();
 
 var handler = function (request, response) {
